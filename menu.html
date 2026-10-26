@@ -1,0 +1,62 @@
+<html>
+
+<head>
+  <title>Menu</title>
+  <style>
+    html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        background-color: pink;
+        font-family: Arial, sans-serif;
+    }
+
+    nav {
+        display: flex;
+        height: 100%;
+        width: 100%;
+    }
+
+    nav a {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #222;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 20px;
+        border-right: 2px solid #333;
+    }
+
+    nav a:last-child {
+        border-right: none;
+    }
+
+    nav a:hover {
+        background-color: #fff3a0;
+    }
+nav a img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+nav a:first-child {
+    background-color: white;
+}
+    
+  </style>
+</head>
+
+<body>
+    <nav>
+        <a href="inicio.html" target="abjo"><img src="leon.jpe" alt="Logo"></a>
+        <a href="inicio.html" target="abjo">Inicio</a>
+        <a href="contacto.html" target="abjo">Contacto</a>
+        <a href="perfil.html" target="abjo">Perfil</a>
+        <a href="portafolio.html" target="abjo">Portafolio</a>
+    </nav>
+</body>
+
+</html>

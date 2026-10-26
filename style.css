@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #fff0f5;
+}
+/* ---------- Menu (parte de arriba) ---------- */
+body.menu {
+    padding: 0;
+    background-color: gold;
+}
+
+nav a {
+    display: inline-block;
+    padding: 12px 18px;
+    color: #222;
+    text-decoration: none;
+    font-weight: bold;
+    border-right: 2px solid #333;
+}
+
+nav a:hover { background-color: #fff3a0; }
+
+/* ---------- Paginas internas ---------- */
+.caja {
+    width: 150px;
+    height: 150px;
+    border: 2px dashed #888;
+    text-align: center;
+    line-height: 150px;
+}
+
+/* ---------- Portafolio ---------- */
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 15px;
+}
+
+.trabajo {
+    height: 140px;
+    border: 2px dashed #888;
+    background-color: #f2f2f2;
+    text-align: center;
+    line-height: 140px;
+}

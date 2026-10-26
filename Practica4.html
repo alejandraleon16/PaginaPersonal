@@ -1,0 +1,115 @@
+<!--creadora: Leon Gonzalez Mariana Alejandra #23320891-->
+<!--Fecha:01/10/2026-->
+<html>
+    <head>
+        <title>PRACTICA 4</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+        <style type="text/css">
+            h1 , h4 { color:red;
+                font-size:50px;
+                border: 5px solid;
+                border-radius: 20px;
+            }
+            h2{ color:blueviolet;
+            font-size: 45px;
+        border: 4px dashed;
+    border-color: brown;
+background-color: aquamarine;
+font-family:"impact";}
+
+select,textarea,input[type=text],input[type=number],input[type=email],input[type=password]
+{
+	background-color: yellowgreen;
+	border: 1px solid ;
+	border-radius: 5px;
+	color: firebrick;
+}
+input[type=submit]
+{
+	background-color:magenta;
+	border: 5px solid ;
+	border-radius: 5px;
+	color:black;
+	font-family:lato;
+}
+body{
+	font-size: 15px;
+	color: darkblue;
+	font-family: Arial;
+}
+        </style>
+    </head>
+
+<body bgcolor="PINK">
+<center><h1>  FORMULARIO DE REGISTRO</h1>
+<h2>Marina Alejandra</h2>
+<h4>Leon Gonzalez</h4></center>
+
+<center><form>
+<table border="0">
+
+	<tr>
+		<td>Dame tu nombre:</td> 
+		<td><input type="text" name="nombre"></td>
+	</tr>
+	<tr>
+		<td>Dame tus apellidos:</td> 
+		<td><input type="text" name="apellidos"></td>
+	</tr>
+	<tr>
+		<td>Dame tu edad:</td> 
+		<td><input type="number" name="edad"></td>
+	</tr>
+	<tr>
+		<td>Dame tu correo:</td> 
+		<td><input type="email" name="correo"></td>
+	</tr>
+	<tr>
+		<td>Dame una contraseña:</td> 
+		<td><input type="password" name="contrasena"></td>
+	</tr>
+	<tr>
+		<td>Ingresa tu genero:</td>
+		<td><input type="radio" name="genero" value="masculino">Masculino
+		<input type="radio" name="genero" value="femenino">Femenino</td>
+	</tr>
+<tr>
+	<td>Selecciona los lenguajes <br> que mas te gustan:</td>
+	<td>
+	<input type="checkbox" name="lenguajes" value="PHP">PHP
+	<input type="checkbox" name="lenguajes" value="Phyton">Phyton
+	<input type="checkbox" name="lenguajes" value="c++">C++
+	<input type="checkbox" name="lenguajes" value="java">Java
+	</td>
+</tr>
+
+<tr>
+<td>Estado civil:</td>
+<td><select name="edo_civil">
+	<option value="soltero"> Soltero/a</option>
+	<option value="casado">Casado/a</option>
+	<option value="divorciado">Divorciado/a</option>
+</select></td>
+
+</tr>
+
+<tr>
+	<td>Ingresa tu comentario</td>
+	<td> <textarea name="" cols="50" rows="6"></textarea></td>
+</tr>
+<br> 
+<td>   <br>
+<input type=submit value="Enviar Datos"></td>  <td></td>
+</br>
+			
+
+			</form></center>
+</table>
+
+
+		</body>
+        </html>
